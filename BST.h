@@ -15,6 +15,7 @@ class BST {
 private:
 	BSTNode<T>* root;
 	int size;
+	int destinationIndex;
 	bool found;
 	Queue<T> *preorder, *postorder, *inorder;
 	T getPredeccesor(BSTNode<T>* node) {
