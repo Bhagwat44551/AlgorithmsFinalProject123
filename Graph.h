@@ -29,7 +29,7 @@ private:
 public:
 	Graph() {
 		this->neighbors = name;
-		this->neighbors = new LinkedList<BST<Flight>> > ();
+		this->neighbors = new LinkedList<BST<Flight>>>();
 		this->dist = new vector<int>();
 		this->prev = new vector<int>();
 		this->size = 0;
